@@ -1,7 +1,7 @@
 <script setup>
 import GuestLayout from '@/Layouts/GuestLayout.vue'
-import InputLabel form '@/Components/InputLabel.vue'
-import TextInput form '@/Components/TextInput.vue'
+import InputLabel from '@/Components/InputLabel.vue'
+import TextInput from '@/Components/TextInput.vue'
 
 </script>
 
