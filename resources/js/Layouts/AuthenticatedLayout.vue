@@ -37,6 +37,10 @@ const showingNavigationDropdown = ref(false);
                                     購入画面
                                 </NavLink>
 
+                                <NavLink :href="route('purchases.index')" :active="route().current('index.create')">
+                                    購買画面
+                                </NavLink>
+
                                 <NavLink :href="route('items.index')" :active="route().current('items.index')">
                                     商品管理
                                 </NavLink>
@@ -44,6 +48,11 @@ const showingNavigationDropdown = ref(false);
                                 <NavLink :href="route('customers.index')" :active="route().current('customers.index')">
                                     顧客管理
                                 </NavLink>
+
+                                <NavLink :href="route('analysis')" :active="route().current('analysis')">
+                                    データ分析
+                                </NavLink>
+
                             </div>
                         </div>
 
@@ -132,6 +141,10 @@ const showingNavigationDropdown = ref(false);
                             購入画面
                         </ResponsiveNavLink>
 
+                        <ResponsiveNavLink :href="route('purchases.index')" :active="route().current('purchases.index')">
+                            購買履歴
+                        </ResponsiveNavLink>
+
 
                         <ResponsiveNavLink :href="route('items.index')" :active="route().current('items.index')">
                             商品管理
@@ -141,6 +154,12 @@ const showingNavigationDropdown = ref(false);
                         <ResponsiveNavLink :href="route('customers.index')" :active="route().current('customers.index')">
                             顧客管理
                         </ResponsiveNavLink>
+
+                        <ResponsiveNavLink :href="route('analysis')" :active="route().current('analysis')">
+                            データ分析
+                        </ResponsiveNavLink>
+
+                        
 
                     </div>
 

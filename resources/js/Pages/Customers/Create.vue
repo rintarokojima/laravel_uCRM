@@ -1,7 +1,6 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
-
 import { reactive } from 'vue'
 import { Inertia } from '@inertiajs/inertia'
 import BreeazeValidationErrors from '@/Components/ValidationErrors.vue'
