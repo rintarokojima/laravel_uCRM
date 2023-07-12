@@ -208,9 +208,3 @@ class PurchaseController extends Controller
         //
     }
 }
-
-
-
-
-
-
