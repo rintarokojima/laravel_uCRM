@@ -210,4 +210,3 @@ class PurchaseController extends Controller
 }
 
 
-
